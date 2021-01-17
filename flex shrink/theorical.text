@@ -1,0 +1,24 @@
+CSS flex-shrink property
+The CSS flex-shrink property specifies how much an item will shrink than the other items 
+of the container. It sets the flex shrink factor (a number that determines how much the 
+flex item will shrink) of a flex-item.
+
+We can distribute the negative space among the flex-items such that some of the items take 
+up more negative space than others. It can be done by setting the value of flex-shrink 
+property to 2. So, the flex-item with the flex-shrink: 2; will shrink twice than the 
+flex-shrink: 1; i.e., it takes up twice as much negative space than others. The higher 
+the flex-shrink value causes the item to shrink more than the others.
+
+When distributing the negative space, the flex shrink factor is multiplied with the 
+flex-basis. The flex-basis is the initial size of the item.
+Syntax
+flex-shrink: number| initial | inherit;  
+Values
+number: It is the positive number that determines the flex shrink factor. Its default 
+value is 1, which indicates that items don't shrink by default. It does not allow negative 
+value. This value specifies how much the item will shrink compared to the other flexible 
+items.
+
+initial: It sets this property to its default value.
+
+inherit: It inherits this property from its parent element.
