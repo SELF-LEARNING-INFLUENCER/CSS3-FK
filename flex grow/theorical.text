@@ -1,0 +1,25 @@
+CSS flex-grow property
+The CSS flex-grow property specifies how much space a flex item should take if there is 
+available space. The remaining space can be defined as the flex container size minus the 
+size of all flex items together.
+
+
+This property defines how much an item will grow inside the container as compared to the 
+other items. It can be defined as the ability of an item to grow as compared to the other 
+items of the container.
+
+For example, if we set flex-grow to 1 for all items, each item will set to an equal size 
+in the container. But if we give any of the items a value of 2, then the corresponding 
+item will take up space twice than the others.
+Syntax:
+flex-grow: number| initial | inherit;
+value:
+
+number: It is the positive number that determines the flex-grow factor. Its default value 
+is 0 and does not allow the negative value. When it sets to zero, the item will not grow, 
+even if there is a space available. The element will take the space it requires.
+
+initial: It sets this property to its default value.
+
+inherit: It inherits this property from its parent element.
+
