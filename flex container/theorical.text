@@ -1,0 +1,19 @@
+CSS Flexbox
+CSS3 Flexible boxes also known as CSS Flexbox,, is a new layout model introduced in CSS3 
+for creating the flexible user interface design with multiple rows and columns without 
+using the percentage or fixed length values. The CSS3 flex layout model provides a simple 
+and powerful mechanism for handling the distributing of space and alignment of content 
+automatically through stylesheet without interfering the actual markup.
+
+The CSS3 flexbox contains flex containers and flex items.
+
+Flex container:The flex container specifies the properties of the parent. It is declared 
+by setting the display property of an element to either flex or inline-flex.
+
+Flex items:The flex items specify properties of the children. There may be one or more 
+flex items inside a flex container.
+All child elements of flex container automatically become flex items and are laid out using 
+the flex layout model. The float, clear, and vertical-align properties have no effect on 
+flex items.
+
+
