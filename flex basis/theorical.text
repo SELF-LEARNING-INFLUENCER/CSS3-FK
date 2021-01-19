@@ -1,0 +1,32 @@
+flex-basis :
+This CSS property specifies the initial size of the flex item. It only works on the 
+flex-items, so if the container's item is not a flex-item, the flex-basis property will 
+not affect the corresponding item. Generally, this CSS property is used with the other 
+flex properties that are flex-shrink and flex-grow and usually defined by the flex 
+shorthand to ensure that all values are set.
+Syntax
+flex-basis: auto | width | initial | inherit;  
+Values
+auto: It is the default value. This value sets the item's width equal to the value of its 
+width property, if defined. But if the width property is not specified for the flex-item, 
+it sets the width according to the content.
+
+width: This value is defined using relative or absolute units. It defines the initial 
+length of the flex-item. It does not allow negative values.
+
+CSS flex-basis property
+This CSS property specifies the initial size of the flex item. It only works on the flex-items, so if the container's item is not a flex-item, the flex-basis property will not affect the corresponding item. Generally, this CSS property is used with the other flex properties that are flex-shrink and flex-grow and usually defined by the flex shorthand to ensure that all values are set.
+
+Syntax
+flex-basis: auto | width | initial | inherit;  
+Values
+auto: It is the default value. This value sets the item's width equal to the value of its width property, if defined. But if the width property is not specified for the flex-item, it sets the width according to the content.
+
+width: This value is defined using relative or absolute units. It defines the initial length of the flex-item. It does not allow negative values.
+
+
+initial: It sets the property to its default value.
+
+inherit: It inherits the property from its parent element.
+
+
