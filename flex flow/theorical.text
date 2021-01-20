@@ -1,0 +1,25 @@
+In the standard CSS box model, the elements normally displayed in the order as they appear 
+in the underlying HTML markup. Flex layout lets you control the direction of the flow 
+inside a flex container in such a way that the elements can be laid out in any flow 
+direction leftwards, rightwards, downwards, or even upwards.
+
+The flow of the flex items in a flex container can be specified using the flex-direction 
+property. The default value of this property is row which is same as the document's current
+writing mode or text direction e.g. left-to-right in English language.
+This CSS property is shorthand for flex-direction and flex-wrap properties. It only works 
+on the flex-items, so if the container's item is not a flex-item, the flex-flow property 
+will not affect the corresponding item.
+
+Syntax
+flex-flow: flex-direction flex-wrap | initial | inherit;  
+The default value of the flex-flow property is row nowrap which is the concatenation of 
+the default values of flex-direction (i.e. row) and flex-wrap (i.e. nowrap) properties.
+Values	Description
+flex-direction	The flex-direction property is used to set the direction of the flexible 
+items inside the flex container. Its default value is row (left-to-right, top-to-bottom). 
+The possible values of this property are row, row-reverse, column, and column-reverse.
+flex-wrap	The flex-wrap property specifies if the flex-items should wrap or not, in case 
+of not enough space for them on one flex line. Its default value is nowrap. The possible 
+values of this property are nowrap, wrap, and wrap-reverse.
+initial	It sets the property to its default value.
+inherit	It inherits the property from its parent element.
