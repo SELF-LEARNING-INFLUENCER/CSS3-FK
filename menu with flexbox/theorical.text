@@ -1,0 +1,16 @@
+Flex items can be aligned along the main axis (i.e. in the horizontal direction) of the 
+flex container using the justify-content property. It is typically used when the flex 
+items do not use all the space available along the main axis.
+
+The justify-content property accepts the following values:
+
+flex-start — Default value. Flex items are placed at the start of the main axis.
+flex-end — Flex items are placed at the end of the main axis.
+center — Flex items are placed at the center of the main axis with equal amounts of free 
+space at both ends. If the leftover free-space is negative i.e. if the items overflow, 
+then the flex items will overflow equally in both directions.
+space-between — Flex items are distributed evenly along the main axis, where the first 
+item placed at the main-start edge and the last one placed at the main-end. If items 
+overflow or there's only one item, this value is equal to flex-start.
+space-around — Flex items are distributed evenly with half-size spaces on either end. 
+If they overflow or there's only one item, this value is identical to center
