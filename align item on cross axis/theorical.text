@@ -1,0 +1,15 @@
+Align Flex Items along Cross Axis
+Flex items can be aligned along the cross axis (i.e. in the perpendicular direction) of 
+the flex container using the align-items or align-self property. However, where the 
+align-items is applied to the flex container, the align-self property is applied to the 
+individual flex items, and overrides align-items. Both properties accept the following 
+values:
+
+flex-start — Flex items are placed at the start of the cross axis.
+flex-end — Flex items are placed at the end of the cross axis.
+center — Flex items are placed at the center of the cross axis with equal amounts of free 
+space at both ends. If the leftover free-space is negative i.e. if the items overflow, then the flex items will overflow equally in both directions.
+baseline — The text baseline (or inline axis) of each flex item is aligned with the 
+baseline of the flex item with the largest font-size.
+stretch — The flex item stretches to fill the current row or column unless prevented by 
+the minimum and maximum width or height. Default value for align-items property.

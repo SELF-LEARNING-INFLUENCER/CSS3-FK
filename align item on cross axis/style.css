@@ -1,0 +1,27 @@
+.wrapper{
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.flex-container1{
+   display: flex;
+   background-color: #ffffff;
+   flex-wrap: wrap;
+   flex-flow: row;
+   height: 600px;
+   align-items: flex-end;
+}
+.flex1{
+   height: 150px;
+   width: 150px;
+}
+.red{
+   background-color: red;
+}
+.blue{
+   background-color: blue;
+
+}
+.green{
+   background-color: green;
+
+}
