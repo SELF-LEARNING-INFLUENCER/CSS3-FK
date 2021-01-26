@@ -1,0 +1,7 @@
+Reordering of flex items:
+
+In addition to altering the flow within a flex container, you can also 
+change the order in which individual flex items are displayed using the order property. 
+This property accepts positive or negative integer as value. By default, all flex items 
+are displayed and laid out in the same order as they appear in the HTML markup as the 
+default value of order is 0.
